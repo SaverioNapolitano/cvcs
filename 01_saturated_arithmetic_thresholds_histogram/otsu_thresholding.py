@@ -1,8 +1,7 @@
-import random
 import numpy as np
+import torch
 from skimage import data
 from skimage.transform import resize
-import torch
 
 im = data.camera()
 im = resize(im, (im.shape[0] // 2, im.shape[1] // 2), mode='reflect', preserve_range=True, anti_aliasing=True).astype(

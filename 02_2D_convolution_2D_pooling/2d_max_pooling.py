@@ -1,6 +1,5 @@
 import random
 import torch
-import math
 
 n = random.randint(2, 6)
 iC = random.randint(2, 6)
